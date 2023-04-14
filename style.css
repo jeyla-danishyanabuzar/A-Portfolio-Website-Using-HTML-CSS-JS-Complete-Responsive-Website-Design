@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-page {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(images/backgroung.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+}
+
+.navbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: antiquewhite;
+    padding: 20px 9%;
+    flex-wrap: wrap;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(105, 17, 105);
+    cursor: pointer;
+}
+
+.navbar .logo span {
+    font-size: 30px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+.navbar .menu a {
+    color: antiquewhite;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: rgb(105, 17, 105);
+    border-bottom: 1px solid;
+}
+
+.navbar .button a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 17px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.navbar .button a:hover {
+    background-color: rgb(105, 17, 105);
+    color: antiquewhite;
+    border: 1px solid rgb(105, 17, 105);
+}
+
+.navbar .side-bar {
+    position: absolute;
+    top: 37%;
+    right: 6%;
+}
+
+.navbar .side-bar i {
+    font-size: 24px;
+    color: antiquewhite;
+    transition: .5s ease;
+}
+
+.navbar .side-bar i:hover {
+    color: rgb(105, 17, 105);
+    transform: translateY(-5px);
+}
+
+.intro-text h1 {
+    position: fixed;
+    top: 115px;
+    left: 345px;
+    font-size: 35px;
+    font-weight: 400;
+    color: antiquewhite;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.intro-text h3 {
+    position: fixed;
+    top: 165px;
+    left: 345px;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(105, 17, 105);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.intro-text a {
+    position: relative;
+    top: 460px;
+    left: 640px;
+    display: inline-block;
+    color: antiquewhite;
+    background-color: rgb(105, 17, 105);
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all .55s ease;
+}
+
+.intro-text a:hover {
+    background: transparent;
+    border: 1px solid antiquewhite;
+    transform: translateX(8px);
+}
+
+.intro-text a.ctaa {
+    background: transparent;
+    color: rgb(105, 17, 105);
+    border: 1px solid rgb(105, 17, 105);
+    margin-left: 20px;
+}
+
+.intro-text a.ctaa i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    padding: 0 10.5%;
+    transform: translateY(-50%);
+}
+
+.icons i {
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: antiquewhite;
+    transition: all .50s ease;
+}
+
+.icons i:hover {
+    color: rgb(105, 17, 105);
+    transform: translateY(-5px);
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+}
+
+.scroll-down i {
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: antiquewhite;
+    background: rgb(105, 17, 105);
+    border-radius: 20px;
+    transition: all .50s ease;
+}
+
+.scroll-down i:hover {
+    transform: translateY(-5px);
+}
