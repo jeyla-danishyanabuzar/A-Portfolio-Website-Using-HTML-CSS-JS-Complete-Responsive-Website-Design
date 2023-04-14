@@ -1,2 +1,0 @@
-# Tutorial
-Transparent Search Bar
